@@ -13,7 +13,7 @@ print(start_time)
 print("======================================")
 
 # Google Maps API Key
-API_KEY = "AIzaSyBaKsCij23Pap0MbkSvgVAkWhx5vgroHlc"
+API_KEY = "YourApiKey"
 
 # API URL 模板
 API_URL = "https://maps.googleapis.com/maps/api/place/textsearch/json"
@@ -157,3 +157,4 @@ end_time = time.time()
 print(end_time)
 duration = end_time - start_time
 print(f"程式執行時間為 {duration:.2f} 秒")
+
